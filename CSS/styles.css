@@ -2,6 +2,7 @@
   --color-primary: #212121;
   --color-secondary: #757575;
   --background-primary: #ffffff;
+  --background-secondary: #f5f4fa;
   --color-selection: #2196f3;
 }
 
@@ -40,9 +41,6 @@ body {
 }
 
 /* --------Header----------*/
-.header {
-  background-color: var(--background-primary);
-}
 
 .logo-text {
   font-family: 'Raleway', sans-serif;
@@ -114,9 +112,6 @@ body {
 
 /* --------Features----------*/
 
-.features-section {
-  background-color: var(--background-primary);
-}
 .features-item {
   font-size: 14px;
   line-height: 1.14;
@@ -130,13 +125,13 @@ body {
 
 /* --------What-do-we-do----------*/
 
-.do-section {
-  background-color: var(--background-primary);
-}
-
 /* --------Team----------*/
 .team-members-section {
-  background: #f5f4fa;
+  background: var(--background-secondary);
+}
+
+.team-member-item {
+  background-color: var(--background-primary);
 }
 
 .team-member-name {
@@ -175,11 +170,7 @@ body {
   font-style: normal;
 }
 
-/* --------Portfolio-buttons----------*/
-
-.portfolio-buttons-section {
-    background-color: var(--background-primary);
-}
+/* --------Portfolio----------*/
 
 .portfolio-filter-button {
   font-weight: 500;
@@ -200,7 +191,6 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* --------Portfolio-projects----------*/
 .project-name {
   font-size: 18px;
   line-height: 2;
